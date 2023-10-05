@@ -1,0 +1,69 @@
+.container__inicio {
+  width: 80%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn-salvar {
+  padding: 10px 150px;
+  background: #f27c8D;
+  border: none;
+  color: #f2f2f2;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-salvar:hover {
+  background: #a1525e;
+}
+
+.btn-jogar {
+  padding: 10px 122px;
+  background: #20a1f1;
+  border: none;
+  color: #f2f2f2;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-jogar:hover {
+  background: #0e639c;
+}
+
+#mostrarNome {
+  padding: 15px;
+  
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+input {
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #ffc688;
+}
+input:focus {
+  border: 0 none;
+  outline: 0;
+  border-bottom: 1px solid #ffc688;
+}

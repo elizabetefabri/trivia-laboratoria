@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+
+    <title>Trivia</title>
+  </head>
+  <body>
+    <div class="container__inicio">
+      <img src="/assets/img/logo.png" width="100" alt="Logo" />
+      <h1>Quiz</h1>
+      <label for="inNome">Informe seu nome: </label><br>
+      <input type="text" name="inNome" id="inNome" size="35"/>
+      <button class="btn-salvar" onclick="salvarNome()">Salvar</button>
+      
+      <div id="mostrarNome"></div>
+
+      <button class="btn-jogar" onclick="paginacao()" >Vamos jogar?</button>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+    <!-- <script src="/assets/js/V2-script.js"></script> -->
+  </body>
+</html>

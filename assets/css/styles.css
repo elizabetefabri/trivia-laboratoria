@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: rgb(220,221,215);
+background: radial-gradient(circle, rgba(220,221,215,1) 15%, rgba(255,198,136,1) 100%);
+  /* background-color: #E8E8E8; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Estilos para o logotipo */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.container__pergunta-1,
+.container__pergunta-2,
+.container__pergunta-3 {
+  width: 80%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn-check {
+  padding: 10px 20px;
+  background: #f27c8D;
+  border: none;
+  color: #f2f2f2;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-check:hover {
+  background: #a1525e;
+}

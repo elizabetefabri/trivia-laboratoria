@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <title>Trivia</title>
+</head>
+<body>
+  <img src="/assets/img/logo.png" 
+  width="140"
+  alt="Logo">
+  <h1>Advinha ae?</h1>
+  <div class="container__pergunta-1">
+    <h3>Quem desenvolveu o IPhone?</h3>
+    <input name="pergunta1" type="radio" value="a" /> 
+    <span>a) Albert Einstein</span> <br>
+    <input name="pergunta1" type="radio" value="b" /> 
+    <span>b) Steve Jobs</span> <br>
+    <input name="pergunta1" type="radio" value="c" /> 
+    <span>c) Pato Donald's</span> <br>
+    <br>
+    <div class="resposta" id="resposta-p1"></div> 
+  </div>
+  <div class="container__pergunta-2">
+    <h3>Quem desenvolveu o ChatGPT?</h3>
+    <input name="pergunta2" type="radio" value="a" /> 
+    <span>a) Mike Matas</span> <br>  
+    <input name="pergunta2" type="radio" value="b" /> 
+    <span>b) Steve Jobs</span> <br>
+    <input name="pergunta2" type="radio" value="c" /> 
+    <span>c) Joseph Weizenbaum</span> <br>
+    <br>
+    <div class="resposta" id="resposta-p2"></div>
+    
+  </div>
+  <div class="container__pergunta-3">
+    <h3>Qual serviço de e-mail pertence à Microsoft?</h3>
+    <input name="pergunta3" type="radio" value="a" /> 
+    <span>a) Outlook</span> <br>
+    <input name="pergunta3" type="radio" value="b" /> 
+    <span>b) Gmail</span> <br>
+    <input name="pergunta3" type="radio" value="c" /> 
+    <span>c) Yahoo Mail</span> <br>
+    <br>
+    <div class="resposta" id="resposta-p3"></div>
+  </div>
+
+  <button class="btn-check" onclick="checar()">Mostre a Resposta</button>
+<script src="/assets/js/script.js"></script>
+<!-- <script src="/assets/js/V2-script.js"></script> -->
+</body>
+</html>
