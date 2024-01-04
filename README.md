@@ -4,7 +4,7 @@
     <span>Laboratoria - Bootcamp 2023</span>
 </h1>
 
-<img src="https://img.shields.io/static/v1?label=DIO&message=Laboratoria Bootcamp 2023&color=Ffe521&labelColor=202024" alt="DIO     Bootcamps" />
+<img src="https://img.shields.io/static/v1?label=LAB&message=Laboratoria Bootcamp 2023&color=Ffe521&labelColor=202024" alt="Bootcamps" />
 
 # Trivia Laboratoria
 
